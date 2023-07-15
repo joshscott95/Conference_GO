@@ -36,24 +36,24 @@ window.addEventListener('DOMContentLoaded', async () => {
       } else {
         const data = await response.json();
 
-      for (let conference of data.conferences) {
-        const detailUrl = `http://localhost:8000${conference.href}`;
-        const detailResponse = await fetch(detailUrl);
-        if (detailResponse.ok) {
-          const details = await detailResponse.json();
-          const title = details.conference.name;
-          const description = details.conference.description;
-          const pictureUrl = details.conference.location.picture_url;
-          const startDate = details.conference.starts;
-          const endDate = details.conference.ends;
-          const locationName = details.conference.location.name;
+        for (let conference of data.conferences) {
+          const detailUrl = `http://localhost:8000${conference.href}`;
+          const detailResponse = await fetch(detailUrl);
+          if (detailResponse.ok) {
+            const details = await detailResponse.json();
+            const title = details.conference.name;
+            const description = details.conference.description;
+            const pictureUrl = details.conference.location.picture_url;
+            const startDate = details.conference.starts;
+            const endDate = details.conference.ends;
+            const locationName = details.conference.location.name;
 
-          const html = createCard(title, description, pictureUrl, startDate, endDate, locationName);
+            const html = createCard(title, description, pictureUrl, startDate, endDate, locationName);
 
-          colDivs[colIndex].innerHTML += html; // Add the card HTML into the appropriate column
+            colDivs[colIndex].innerHTML += html; // Add the card HTML into the appropriate column
 
-          colIndex = (colIndex + 1) % colDivs.length; // // Increment the column index and wrap around if necessary
-            }
+            colIndex = (colIndex + 1) % colDivs.length; // // Increment the column index and wrap around if necessary
+          }
         }
       }
     } catch (e) {
