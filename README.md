@@ -48,6 +48,9 @@ Additionally, it manages attendees and their respective presentations, and it al
 
 ## 🖥️ Usage
 
+1. Create conferences
+2. Add attendees to those conferences
+3. Let each attendee propose a presentation idea that can be approved or rejected
 
 ## ⭐ Features
 
