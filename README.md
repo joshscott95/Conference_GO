@@ -5,31 +5,28 @@ experience by providing relevant images based on the conference location and cur
 Additionally, it manages attendees and their respective presentations, and it also automates the notification process for attendees upon successful conference registration.
 
 ## 📂 Directory Structure
-
-```
 .
-├── attendees-microservice/   # Microservice to manage conference attendees
-├── ghi/                      # Main app components
-│   ├── attend-conference.html
-│   ├── index.html
-│   ├── login.html
-│   ├── new-conference.html
-│   ├── new-location.html
-│   └── new-presentation.html
-├── JS/                       # JavaScript files corresponding to the app components
-│   ├── attend-conference.js
-│   ├── index.js
-│   ├── login.js
-│   ├── new-conference.js
-│   ├── new-location.js
-│   └── new-presentation.js
-├── presentation-mailer/      # Handles mailing functionalities
-│   └── consumer.py           # Consumer for processing mail requests
-├── accounts/                 # (You might want to detail what's inside here)
-├── conference/               # (You might want to detail what's inside here)
-├── events/                   # (You might want to detail what's inside here)
-└── ...                       # Other directories or files
-```
+├── attendees-microservice/ # Microservice to manage conference attendees
+├── ghi/ # Main app components
+│ ├── attend-conference.html
+│ ├── index.html
+│ ├── login.html
+│ ├── new-conference.html
+│ ├── new-location.html
+│ └── new-presentation.html
+├── JS/ # JavaScript files corresponding to the app components
+│ ├── attend-conference.js
+│ ├── index.js
+│ ├── login.js
+│ ├── new-conference.js
+│ ├── new-location.js
+│ └── new-presentation.js
+├── presentation-mailer/ # Handles mailing functionalities
+│ └── consumer.py # Consumer for processing mail requests
+├── accounts/ # (You might want to detail what's inside here)
+├── conference/ # (You might want to detail what's inside here)
+├── events/ # (You might want to detail what's inside here)
+└── ... # Other directories or files
 
 ## 🔧 Installation & Setup
 
