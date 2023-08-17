@@ -6,7 +6,7 @@ Additionally, it manages attendees and their respective presentations, and it al
 
 ## 📂 Directory Structure
 
-\```
+```
 .
 ├── attendees-microservice/   # Microservice to manage conference attendees
 ├── ghi/                      # Main app components
@@ -29,7 +29,7 @@ Additionally, it manages attendees and their respective presentations, and it al
 ├── conference/               # (You might want to detail what's inside here)
 ├── events/                   # (You might want to detail what's inside here)
 └── ...                       # Other directories or files
-\```
+```
 
 ## 🔧 Installation & Setup
 
