@@ -5,7 +5,7 @@ experience by providing relevant images based on the conference location and cur
 Additionally, it manages attendees and their respective presentations, and it also automates the notification process for attendees upon successful conference registration.
 
 ## 📂 Directory Structure
-.
+```
 ├── attendees-microservice/ # Microservice to manage conference attendees
 ├── ghi/ # Main app components
 │ ├── attend-conference.html
@@ -27,6 +27,7 @@ Additionally, it manages attendees and their respective presentations, and it al
 ├── conference/ # (You might want to detail what's inside here)
 ├── events/ # (You might want to detail what's inside here)
 └── ... # Other directories or files
+```
 
 ## 🔧 Installation & Setup
 
